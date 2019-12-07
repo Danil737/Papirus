@@ -1,0 +1,210 @@
+/*Спецификация*/
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	width:100%;
+}
+
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+li:not(:last-child) {
+  margin-right: 0px;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: 700;
+	color: #dbdbdb;
+	text-align: center;
+	font-size:68px;
+}
+
+h3 {
+	font-weight: 400;
+}
+h4{
+	font-size:24px;
+}
+h5{
+	front-size:20px;
+}
+h1{
+	font-size:105px;
+}
+h6{
+	front-size:100px;
+	font-weight: 400;
+}
+.katalog{
+	display: block;
+	margin: 500px auto;
+}
+.catalog__items{
+	margin: 68px 70px;
+}
+/* Первый экран*/
+header{
+	 position: fixed;
+  top: 0;
+  width: 100%;
+	background: #40403f;
+	color: #fff;
+	padding-top:6px;
+	z-index: 1000;
+/*	background-size: auto 100px;*/
+}
+.header{
+/* transition: all .2s;*/
+}
+	
+
+/*.scroll { нихрена не работает
+  box-shadow: 0 7px 0 0 rgba(0, 0, 0, .1);
+}*/
+
+/*.scroll .logo {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.scroll nav {
+  align-items: center;
+}
+
+.scroll .logo,
+.scroll ul,
+.scroll .toggle-menu {
+  margin: 0;
+}*/
+/*@media screen and (max-width: 1060px) {
+  header {
+    padding: 10px;
+  }
+  nav {
+    align-items: center;
+  }
+  ul {
+    display: none;
+  }
+  .logo {
+    font-size: 1.8rem;
+    margin: 10px 0 0 10px;
+  }
+  .toggle-menu {
+    display: block;
+  }
+}*/
+
+
+
+.finder{
+	margin: 40px;
+}
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+.input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 55px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  /*content: "\f002";*/
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+
+
+.photo{
+	margin: 70px 40px;
+}
+.photo_item{
+	margin:10px;
+}
+
+.menu__too{
+	font-size:26px;
+	margin: -10px 0px;
+}
+.menu__item__too{
+	margin: 0 40px;
+}
+
+.number{
+	padding-left:10px;
+}
+
+.menu__adress_work_time{
+	margin:-80px 0;
+	/*front-size:5px;*/
+}
+
+a{
+	color: #e6e6e6;
+}
+.title_text{
+	color: #ffffff;
+}
+.title_main{
+	color: #505050;
+}
+/*.b{
+	padding-bottom:57px;
+}*/
+.title_contacts{
+	color:#f0e3d9;
+}
+.feature__icon{
+	font-size: 50px;
+	margin-rigth: 37px;
+	color: #000;
+}
+
+
+/*.for_header{
+	margin-top: 20px
+}*/
+.feature{
+	margin:70px;
+}
+.fa{
+	color:#f0e3d9;s
+}
+
+.feature__text{
+	color: #f0e3d9;
+}
+
+.fa-phone{
+	font-size:35px;
+}
+
+.feature__block{
+	margin-top:50px;
+	margin-left:-100px;
+}

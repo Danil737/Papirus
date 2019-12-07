@@ -1,0 +1,20 @@
+/*	html{
+		background-color: #40403e;
+	}*/
+
+	body{
+	 background: url('../img/main.png') no-repeat center center fixed;
+    background-size: cover;
+  /*  background-attachment: scroll;*/
+	}
+
+/*background-size: 500px;
+
+background-color: цвет фона
+
+background-repeat: повторяется ли фон;
+
+background-position: позиция фона;
+
+background - общее свойства, можно все те свойства, что сверху задать только в этом подряд. 
+	*/} 
